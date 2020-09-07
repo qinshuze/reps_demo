@@ -1,0 +1,19 @@
+{
+    "name": "reps_demo/helloworld",
+    "description": "test the private repository",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qsz",
+            "email": "qsz@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "Hello/"
+        }
+    }
+}
